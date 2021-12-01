@@ -4,4 +4,6 @@ document.addEventListener('DOMContentLoaded', function() {
     let sidenavInstances = M.Sidenav.init(sidenav, sidenavOptions);
     let collapse = document.querySelectorAll('.collapsible');
     let collapseInstances = M.Collapsible.init(collapse);
+    let tooltips = document.querySelectorAll('.tooltipped');
+    let tooltipInstances = M.Tooltip.init(tooltips);
   });
