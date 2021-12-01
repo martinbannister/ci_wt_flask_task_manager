@@ -1,5 +1,7 @@
 document.addEventListener('DOMContentLoaded', function() {
-    var elems = document.querySelectorAll('.sidenav');
-    let options = {edge: "right"};
-    var instances = M.Sidenav.init(elems, options);
+    let sidenav = document.querySelectorAll('.sidenav');
+    let sidenavOptions = {edge: "right"};
+    let sidenavInstances = M.Sidenav.init(sidenav, sidenavOptions);
+    let collapse = document.querySelectorAll('.collapsible');
+    let collapseInstances = M.Collapsible.init(collapse);
   });
