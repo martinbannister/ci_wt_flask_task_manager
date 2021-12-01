@@ -16,4 +16,6 @@ document.addEventListener('DOMContentLoaded', function() {
         }
     }
     let datePickInstances = M.Datepicker.init(datepickers, datePickOptions);
+    let selects = document.querySelectorAll('select');
+    let selectInstances = M.FormSelect.init(selects);
   });
